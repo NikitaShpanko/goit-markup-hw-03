@@ -58,7 +58,7 @@ body {
   display: flex;
 }
 
-.center {
+.align-center {
   align-items: center;
 }
 
@@ -79,40 +79,18 @@ body {
 
 .page-header {
   background-color: var(--background-light);
-  /* padding: 0 215px; */
   height: 80px;
-  /* display: flex; */
-  /* align-items: center; */
   border: 1px #ececec;
   border-style: none none solid none;
 }
-
-/* .page-nav {
-  /* display: flex; */
-/* align-items: center; */
-/* flex-grow: 1; */
-/* } */
 
 .company-logo {
   display: block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  /* text-decoration: unset; */
   color: var(--main-color);
-  /* margin: 24px 93px 25px 0; */
 }
-
-/* .navigation-list,
-.qualities-list,
-.what-we-do-list,
-.team-list,
-.filter-list,
-.portfolio-list {
-  list-style: none;
-  padding: 0;
-  display: flex;
-} */
 
 .navigation-list {
   margin-left: 93px;
@@ -125,14 +103,12 @@ body {
 .navigation-link {
   font-weight: 500;
   letter-spacing: 0.02em;
-  /* text-decoration: unset; */
   color: var(--main-color);
 }
 
 .header-contact-link {
   font-weight: 500;
   letter-spacing: 0.02em;
-  /* text-decoration: unset; */
   color: var(--secondary-color);
   margin-left: auto;
 }
@@ -213,12 +189,7 @@ body {
   padding-bottom: 94px;
 }
 
-/* .hidden {
-  display: none;
-} */
-
 .quality {
-  /* margin: 0 15px; */
   width: 270px;
 }
 
@@ -233,7 +204,6 @@ body {
 .quality-explanation {
   color: var(--secondary-color);
   line-height: 1.714em;
-  /* margin: 0; */
 }
 
 .about-us-title {
@@ -242,20 +212,14 @@ body {
   margin: 0 0 50px 0;
 }
 
-/* .what-we-do {
-  margin: 0 15px;
-} */
-
 .team {
   background-color: var(--background-medium);
   padding-top: 94px;
   padding-bottom: 94px;
-  /* padding: 94px 200px; */
 }
 
 .team-member {
   background-color: var(--background-light);
-  /* margin: 0 15px; */
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -277,29 +241,20 @@ body {
 
 .filter-list {
   justify-content: center;
-  /* text-align: center; */
-  margin: 0 0 20px;
+  margin-bottom: 20px;
 }
 
 .filter {
+  display: block;
   margin: 0;
 }
 
 .filter + .filter {
-  margin-left: 4px;
-  /* margin: 0 4px; */
+  margin-left: 8px;
 }
-
-/* .portfolio-list {
-  flex-wrap: wrap; */
-/*justify-content: space-between;*/
-/* margin-left: -15px; */
-/* } */
 
 .portfolio-element {
   margin-top: 30px;
-  /* margin-left: 30px; */
-  /* border: 1px solid #eeeeee; */
   box-sizing: border-box;
 }
 
@@ -308,7 +263,6 @@ body {
 }
 
 .portfolio-element > a {
-  /* text-decoration: none; */
   color: unset;
 }
 
@@ -332,7 +286,6 @@ body {
   background-color: var(--background-dark);
   padding-top: 60px;
   padding-bottom: 60px;
-  /* padding: 60px 215px; */
 }
 
 .page-footer .company-logo {
@@ -350,6 +303,5 @@ body {
 }
 
 .footer-contact-link {
-  /* text-decoration: unset; */
   color: var(--secondary-color);
 }
