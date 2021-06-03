@@ -255,7 +255,6 @@ body {
 
 .portfolio-element {
   margin-top: 30px;
-  box-sizing: border-box;
 }
 
 .portfolio-element:not(:nth-child(3n)) {
@@ -266,20 +265,22 @@ body {
   color: unset;
 }
 
+.portfolio-element-text {
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
+}
+
 .portfolio-element-title {
   font-size: 18px;
   line-height: 2em;
   letter-spacing: 0.06em;
-  margin: 0;
-  /*padding: 20px 0 0 24px;*/ /* made by padding to increase the clickable area */
+  margin-bottom: 4px;
 }
 
 .portfolio-element-description {
   font-size: 16px;
   line-height: 1.875em;
   color: var(--secondary-color);
-  margin: 0;
-  /*padding: 4px 0 20px 24px;*/ /* made by padding to increase the clickable area */
 }
 
 .page-footer {
@@ -290,7 +291,7 @@ body {
 
 .page-footer .company-logo {
   color: var(--background-light);
-  margin: 0 0 20px 0;
+  margin-bottom: 20px;
 }
 
 .footer-address {
