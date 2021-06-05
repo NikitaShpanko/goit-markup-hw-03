@@ -40,7 +40,7 @@ a {
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  line-height: 1.172em;
+  line-height: 1.172;
   letter-spacing: 0.03em;
   color: var(--main-color);
   background: #e5e5e5;
@@ -200,14 +200,14 @@ body {
 .quality-name {
   font-size: 14px;
   font-weight: 700;
-  line-height: 1.17;
+  line-height: 1.167;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 
 .quality-explanation {
   color: var(--secondary-color);
-  line-height: 1.714em;
+  line-height: 1.714;
 }
 
 .std-section {
@@ -216,8 +216,9 @@ body {
   padding-bottom: 94px;
 }
 
-.about-us-title {
+.std-title {
   font-size: 36px;
+  line-height: 1.167;
   text-align: center;
   margin: 0 0 50px 0;
 }
@@ -312,6 +313,7 @@ body {
 .footer-contact {
   color: var(--background-light);
   margin-top: 9px;
+  line-height: 1.714;
 }
 
 .footer-contact-link {
